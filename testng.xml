@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="Register.NewTest"/>   
+    <class name="Login.NewTest"/>
+    <class name="HOMEPAGE_LOAD.NewTest"/>
+    <class name="Category.CategoryTest"/>
+    <class name="Acc_update.NewTest"/>
+    <class name="Add_to_Cart.NewTest"/>
+    
+    
+    
+	  <class name="PasswordReset.NewTest"/>  
+	<class name="Product_page.NewTest"/>
+    
+    <class name="SearchFunctionality.SearchTest"/>
+    <class name="Verify_forgetPass.NewTest"/>
+    <class name="AddingProduct_re.NewTest"/>
+    <class name="Compare_product.NewTest"/>
+    <class name="Compare_product_remove.NewTest"/>
+    <class name="WishList_function.NewTest"/>
+    <class name="OrderHistory.NewTest"/>
+    <class name="Creating_order.NewTest"/>
+     <class name="Reorder.NewTest"/>
+    <class name="Filter_Options.NewTest"/>
+     <class name="Sort_price.NewTest"/>
+       <class name="Verify_Hori_Vert.NewTest"/>
+       <class name="Remove_wishlist.NewTest"/>
+        <class name="Address.NewTest"/>
+         <class name="Verify_Shiping.NewTest"/>
+          <class name="Address_Selection_Checkout.NewTest"/>
+                <class name="Verifying_posters.NewTest"/>
+          
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
